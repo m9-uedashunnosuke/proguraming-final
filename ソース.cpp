@@ -18,9 +18,9 @@ bool operator<(const Student& p1, const Student& p2) {
 
     void showscore(vector<Student>&v, bool b) {
     vector<Student> v1;
-    v.emplace_back("上田", 50, 95, 90);
-    v.emplace_back("中田", 95, 79, 70);
-    v.emplace_back("下田", 78, 70, 62);
+    v.emplace_back("荳顔伐", 50, 95, 90);
+    v.emplace_back("荳ｭ逕ｰ", 95, 79, 70);
+    v.emplace_back("荳狗伐", 78, 70, 62);
  
     sort(v.begin(), v.end());
 }
@@ -29,7 +29,7 @@ int main() {
     vector<Student> v1;
     showscore(v1, true);
     for (auto p : v1) {
-        cout << p.name << " : " << p.total << "点" << endl;
+        cout << p.name << " : " << p.total << "轤ｹ" << endl;
     };
    
 }
